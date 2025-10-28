@@ -3,59 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>servicios web</title>
+  <title>Bello - Inicio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="logo">servicios web</div>
-    <nav class="nav-links" id="nav-links">
-      <a href="#inicio">Inicio</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#login">Login</a>
-    </nav>
-    <div class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
+  <nav class="navbar">
+    <div class="logo">Bello</div>
+    <ul class="nav-links">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#login">Login</a></li>
+    </ul>
+    <div class="hamburger">☰</div>
+  </nav>
+
+  <main class="cards-container">
+    <div class="card" onclick="location.href='#servicios'">
+      <img src="assets/img/servicios.jpg" alt="Servicios">
+      <div class="card-footer">Servicios</div>
     </div>
-  </header>
+    <div class="card" onclick="location.href='#contacto'">
+      <img src="assets/img/contacto.jpg" alt="Contacto">
+      <div class="card-footer">Contacto</div>
+    </div>
+  </main>
 
-  <!-- SECCIONES -->
-  <section id="inicio" class="section">
-    <h1>Bienvenido a servicios-web</h1>
-    <p>Tu solución digital completa.</p>
-  </section>
-
-  <section id="servicios" class="section">
-    <h2>Nuestros Servicios</h2>
-    <p>Descripción breve de lo que ofrecemos.</p>
-  </section>
-
-  <section id="login" class="section">
-    <h2>Accede a tu cuenta</h2>
-    <button>Iniciar Sesión</button>
-  </section>
-
-  <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer-left">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.788295971803!2d-74.08175!3d4.60971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a3b8b0a7df%3A0xa9fbd7ea3e8d4e0!2sBogotá%2C%20Colombia!5e0!3m2!1ses!2sco!4v0000000000000"
-        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
-      </iframe>
-    </div>
-    <div class="footer-right">
-      <h3>Contacto</h3>
-      <p>📞 +57 300 000 0000</p>
-      <p>📧 servicios-web@gmail.com</p>
-      <div class="social">
-        <a href="#">Facebook</a> |
-        <a href="#">Instagram</a> |
-        <a href="#">LinkedIn</a>
-      </div>
-    </div>
+    <p>© 2025 Bello - Todos los derechos reservados</p>
   </footer>
 
   <script src="script.js"></script>
